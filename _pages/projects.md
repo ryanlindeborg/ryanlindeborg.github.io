@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected research and engineering projects. # TODO: adjust
-nav: true
+nav: false # TODO: set back to true when this page has real content
 nav_order: 2
 display_categories: [research]
 horizontal: false
