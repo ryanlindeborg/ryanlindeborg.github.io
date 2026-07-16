@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ryanlindeborg
 
 repo_description_lines_max: 2
 
+# TODO: list your best repos here (shown on the /repositories/ page — currently hidden from nav;
+# re-enable by setting `nav: true` in _pages/repositories.md)
 github_repos:
   - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons

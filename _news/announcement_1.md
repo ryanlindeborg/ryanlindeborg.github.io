@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-07-16 09:00:00-0700
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Launched my new academic website! :rocket: <!-- TODO: replace with real news (paper acceptances, talks, new positions) — this feeds the "news" section on the home page -->
