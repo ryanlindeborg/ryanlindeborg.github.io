@@ -4,14 +4,12 @@ title: about
 permalink: /
 # subtitle: # TODO: re-enable later, e.g. "Research Affiliate at MIT CSAIL · MS student at USC"
 
-# TODO: re-enable the profile photo later by uncommenting this block and
-# replacing assets/img/prof_pic.jpg with your photo (keep the same filename)
-# profile:
-#   align: right
-#   image: prof_pic.jpg
-#   image_circular: false # crops the image to make it circular
-#   more_info: >
-#     <p>lindeborgryan@gmail.com</p>
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>lindeborgryan@gmail.com</p>
 
 selected_papers: false # TODO: set true once real publications are in _bibliography/papers.bib
 social: false # TODO: set true to show social icons (configured in _data/socials.yml)
