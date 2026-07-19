@@ -1,4 +1,5 @@
 ---
+published: false # TODO: remove this line when this page has real content
 layout: cv
 permalink: /cv/
 title: CV

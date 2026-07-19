@@ -7,9 +7,9 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>lindeborgryan@gmail.com</p>
+    <p style="display: block; width: 100%; text-align: center;">ryandlindeborg@gmail.com</p>
 
 selected_papers: false # TODO: set true once real publications are in _bibliography/papers.bib
 social: false # TODO: set true to show social icons (configured in _data/socials.yml)
@@ -25,6 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Research Affiliate at MIT CSAIL, where I work with Will Shen, Nishanth Kumar, Leslie Kaelbling, and Tomás Lozano-Pérez, and a master's student at USC, where I work with Abrar Anwar, Jesse Zhang, and Jesse Thomason. My research interests are in robot learning and aligning robot behavior with human intent.
+I'm a Research Affiliate at MIT CSAIL, where I work with [Will Shen](https://shen.nz/), [Nishanth Kumar](https://nishanthjkumar.com/), [Leslie Kaelbling](https://people.csail.mit.edu/lpk/), and [Tomás Lozano-Pérez](https://people.csail.mit.edu/tlp/), and a master's student at USC, where I work with [Abrar Anwar](https://abraranwar.github.io/), [Jesse Zhang](https://www.jessezhang.net/), and [Jesse Thomason](https://jessethomason.com/). My research interests are in robot learning and aligning robot behavior with human intent.
 
 Previously, I developed large-scale robotic systems at Amazon Robotics and graduated from Harvard.
