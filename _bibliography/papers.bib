@@ -1,22 +1,36 @@
 ---
 ---
 
-% TODO: Replace this example with your real publications.
 % Useful al-folio-specific fields per entry:
 %   abbr={CoRL}          — venue badge shown next to the entry
-%   selected={true}      — shows the paper in "selected publications" on the home page
+%   selected={true}      — shows the paper in the "Research" section on the home page
 %   bibtex_show={true}   — adds a BibTeX button
 %   pdf / html / arxiv / code / website / video — buttons linking to the resource
 %   preview={image.png}  — small teaser image (place in assets/img/publication_preview/)
 %   abstract={...}       — expandable abstract
 % Your name is bolded automatically via the scholar last_name/first_name lists in _config.yml.
 
-@inproceedings{lindeborg2026example,
-  abbr        = {Preprint},
-  title       = {Example Paper Title: Replace Me With Your Real Publication},
-  author      = {Lindeborg, Ryan},
-  booktitle   = {TODO: venue},
+@inproceedings{lindeborg2026sideeffects,
+  title       = {Anticipating Unintended Robot Behaviors with Side Effect Critics},
+  booktitle   = {Rethinking Safety Workshop, RSS},
+  presentation = {Spotlight Presentation},
+  preview     = {side_effects_teaser.mp4},
+  pdf         = {/papers/side_effect_critics.pdf},
+  author      = {Lindeborg*, Ryan and Peng*, Richard Jiankun and Jain, Ayush and Zhang, Jesse and Anwar, Abrar and Thomason, Jesse},
   year        = {2026},
+  note        = {We study side effect prediction for robotic manipulation, aiming to anticipate unintended changes before they occur, so the robot can stop, resample, or defer to a human. We train a side effect critic, initialized from a pre-trained vision-language action (VLA) model, that predicts whether given action chunks will cause a side effect before the actions are executed.},
   selected    = {true},
-  bibtex_show = {true},
+}
+
+@inproceedings{shen2026tiptop,
+  title       = {TiPToP: A Modular Open-Vocabulary Robot Manipulation System That Plans},
+  booktitle   = {FM4RoboPlan Workshop, RSS},
+  author      = {Shen*, William and Kumar*, Nishanth and Chintalapudi, Sahit and Lindeborg, Ryan and Wang, Jie and Watson, Christopher and Hu, Edward S. and Cao, Jing and Jayaraman, Dinesh and Kaelbling, Leslie Pack and Lozano-P{\'e}rez, Tom{\'a}s},
+  year        = {2026},
+  pdf         = {https://openreview.net/pdf?id=r701Fppyp6},
+  code        = {https://github.com/tiptop-robot/tiptop},
+  website     = {https://tiptop-robot.readthedocs.io/en/latest/},
+  preview     = {tiptop_teaser.mp4},
+  note        = {TiPToP is a modular manipulation system that integrates pre-trained foundation models with a GPU-accelerated Task and Motion Planner to solve tasks directly from RGB images and natural language.},
+  selected    = {true},
 }
